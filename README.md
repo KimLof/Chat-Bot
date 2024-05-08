@@ -25,7 +25,7 @@ Example usage:
 | hi         | Hello! How can I assist you today? |
 | what's your name? | My name is ChatBot. Nice to meet you! |
 | tell me a joke | Why don't scientists trust atoms? Because they make up everything! |
-| Can you help me with Python? | Of course! What do you need help with? |
+| "hat's the time? | xx.xx.xxxx |
 | What's your favorite movie? | I'm a bot, so I don't have personal preferences. But I can recommend some popular movies if you'd like! |
 | How can I add new responses to the bot? | You can modify the `responses` dictionary in the `chatbot.py` file. Just add new key-value pairs for different user inputs and bot responses. |
 

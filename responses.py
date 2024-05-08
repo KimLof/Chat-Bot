@@ -36,7 +36,10 @@ responses = {
     "do you dream?": ["As an artificial intelligence, I don't experience dreams like humans do."],
     "are you intelligent?": ["I am programmed to process and respond to input, but whether that constitutes intelligence is up for debate."],
     "what's the time?": [datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")],
-        "tell me a fun fact": ["Did you know that the Eiffel Tower can be 15 cm taller during the summer? This is due to the expansion of the iron in the heat!",
+    "what day is it today?": [datetime.datetime.now().strftime("%A")],
+    "what's the date today?": [datetime.datetime.now().strftime("%Y-%m-%d")],
+    "what time is it?": [datetime.datetime.now().strftime("%H:%M:%S")],
+    "tell me a fun fact": ["Did you know that the Eiffel Tower can be 15 cm taller during the summer? This is due to the expansion of the iron in the heat!",
                           "The longest recorded flight of a chicken was 13 seconds!",
                           "Octopuses have three hearts and blue blood!"],
     "what's your favorite movie?": ["I don't have personal preferences, but 'The Matrix' is often cited as a thought-provoking film!"],
@@ -102,7 +105,8 @@ responses = {
     "how can you help me?": ["I can help you by providing information, answering questions, offering support, and engaging in conversation. What do you need assistance with?"],
     "what's your purpose?": ["My purpose is to assist you with your questions, provide information, and engage in conversation. How can I help you today?"],
     "what are your abilities?": ["I can communicate with you, answer questions, provide information, offer support, and engage in conversation. What would you like to do?"],
-    "what are your interests?": ["As a chatbot, I'm here to assist you with your questions and provide conversation. What are you interested in talking about?"],    
+    "what are your interests?": ["As a chatbot, I'm here to assist you with your questions and provide conversation. What are you interested in talking about?"],
+    "how can i add new responses to the bot?": ["You can add new responses by editing the 'responses.py' file in the chatbot's code. Simply add a new key-value pair to the 'responses' dictionary with the user input as the key and a list of possible responses as the value."],
 }
 
 
