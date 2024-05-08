@@ -7,6 +7,14 @@ import tkinter as tk
 from tkinter import ttk
 from responses import responses
 
+# Responses if user input does not match any keywords
+responses["default"] = ["I'm sorry, I don't understand that question.",
+                        "I'm not sure I know what you're talking about.",
+                        "Can you rephrase that?",
+                        "I'm not programmed to answer that question.",
+                        "I don't have an answer for that.",
+                        "I'm sorry, I'm just a simple bot."]
+
 # Download NLTK resources if you haven't already
 nltk.download('punkt')
 nltk.download('averaged_perceptron_tagger')
@@ -30,7 +38,7 @@ def respond(user_input):
         key_tokens = preprocess(key)
         if all(token in user_tokens for token in key_tokens):
             return responses[key]
-    return "I'm sorry, I don't understand that question."
+    return random.choice(responses["default"])
 
 # Function to send user message and display bot response
 def send_message():
