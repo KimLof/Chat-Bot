@@ -22,10 +22,10 @@ Example usage:
 
 | User Input | Bot Response |
 |------------|--------------|
-| hi         | Hello! How can I assist you today? |
-| what's your name? | My name is ChatBot. Nice to meet you! |
-| tell me a joke | Why don't scientists trust atoms? Because they make up everything! |
-| "hat's the time? | xx.xx.xxxx |
+| Hi         | Hello! How can I assist you today? |
+| What's your name? | My name is ChatBot. Nice to meet you! |
+| Tell me a joke | Why don't scientists trust atoms? Because they make up everything! |
+| "What's the time? | xx.xx.xxxx |
 | What's your favorite movie? | I'm a bot, so I don't have personal preferences. But I can recommend some popular movies if you'd like! |
 | How can I add new responses to the bot? | You can modify the `responses` dictionary in the `chatbot.py` file. Just add new key-value pairs for different user inputs and bot responses. |
 
